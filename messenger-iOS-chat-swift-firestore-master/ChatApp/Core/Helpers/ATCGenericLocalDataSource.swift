@@ -1,10 +1,4 @@
-//
-//  ATCGenericLocalDataSource.swift
-//  RestaurantApp
-//
-//  Created by Florian Marcu on 4/7/18.
-//  Copyright © 2018 iOS App Templates. All rights reserved.
-//
+
 
 class ATCGenericLocalDataSource<T: ATCGenericBaseModel>: ATCGenericCollectionViewControllerDataSource {
     weak var delegate: ATCGenericCollectionViewControllerDataSourceDelegate?
